@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'drupal-bootstrap';
+
+body{
+    margin-top:0 !important;
+}
+.logo img {
+    max-width: 100px;
+}
+
+.footer-container {
+    padding: 40px 0;
+    background: #2d2d2d;
+    color: #fff;
+}
+.partner-container {
+    padding: 40px 0;
+    background: #ffffff;
+    color: #fff;
+}
+
+.slideshow {
+   height: 100vh;
+}
+.about {
+    padding: 100px 0;
+    .about-desc {
+        font-family: 'Poppins', sans-serif;
+        padding: 0 40px;
+        h2.block-title{
+            font-size: 1.6rem;
+            margin-bottom: 5px;
+            font-weight: 300;
+            color: #156434;
+            text-transform: uppercase;
+        }
+        h2 {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 3.5rem;
+    
+        }
+        p {
+            margin-top: 30px;
+            font-size: 1.5rem;
+            margin-bottom: 40px;            
+        }
+        a {
+            background: green;
+            color: #fff;
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+    }
+    img {
+        padding: 0 40px;
+    }
+}
+
+.objectives {
+    padding: 70px 0;
+    background: #f0f0f0;
+    .subtitle {
+        color: #156434;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Poppins';
+    }
+    .title {
+        font-size: 3rem;
+        font-family: 'Poppins';
+        font-weight: bold;
+        text-align: center;
+    }
+    img {
+        display: inline;
+        max-height: 140px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .region.region-objectivesleft, .region-objectivesright {
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: 'Poppins';
+        margin-top:55px;
+    }
+}
+
+.newletter {
+    background-image: url("../images/newsletterBg.png");
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #fff;
+     h2 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        background: #8cc63f;
+        padding: 10px 30px;
+    }
+    p {
+        margin: 40px 0px;
+    }
+}
+
+.where-we-work {
+    background-color: #eef1ee;
+    padding: 40px 0;
+    h2.block-title {
+        font-size: 3rem;
+        font-family: "Poppins";
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .where-we-work-tip {
+        background: #fff;
+        padding: 20px 15px;
+        font-family: 'Poppins';
+
+    }
+    .tip-title h3 {
+        font-family: 'Poppins';
+        color: #5f806a;
+        /* margin-bottom: 20px; */
+        padding: 0 !important;
+    }
+}
+
+.news {
+    background-color: #eef1ee;
+    padding: 40px 0;
+    .subtitle {
+        color: #156434;
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Poppins';
+        margin-top: 40px;
+    }
+    .title {
+        font-size: 3rem;
+        font-family: 'Poppins';
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .news-wrapper {
+        background: #fff;
+        font-family: 'Poppins';
+    }
+    .news-content {
+        padding: 20px;
+    }
+    .news-tags {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    .news-tags span {
+        background: #425849;
+        color: #fff;
+        padding: 8px;
+    }
+    .news-date {
+        color: #425849;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .news-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .news-title a {
+        text-decoration: none;
+        color: #010101;
+    }
+    .more-link.form-group {
+        margin: 20px 0;
+        text-transform: capitalize;
+        text-align: right;
+    }
+    .more-link.form-group a {
+        border: 1px solid;
+        text-decoration: none;
+        color: #425849;
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+}
+
+
+.region-footerone img {
+    padding: 20px;
+}
+.region-footerthree a, .region-footerthree a:hover, .region-footerthree a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+.region-footerthree .nav > li > a:hover, .nav > li > a:focus{
+    background-color: transparent;
+}
+.region.region-footerfour img {
+    padding: 10px 40px;
+}
+.tip-title {
+    margin-bottom: 30px;
+}
+.tip-title:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    /* bottom: -4px; */
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+    width: 20%;
+    background: green;
+   
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+nav#block-secondarymenu {
+    float: right;
+    top: 0;
+}
+nav#block-secondarymenu li {
+    float: left;
+    font-size: 15px !important;
+}
+
+nav#block-secondarymenu li a, nav#block-secondarymenu li a:hover {
+    color: #000;
+    background: transparent;
+    font-family: 'Poppins';
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        float: right;
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .carousel-caption {
+        right: 60%;
+        left: 13%;
+        padding-bottom: 30px;
+        top: 20%;
+        text-align: left;
+    }
+}
+
+.carousel-caption h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.carousel-caption p {
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.carousel-caption a.see-more-description {
+    background: #fff;
+    color: #146533;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+.banner{
+    min-height: 17rem;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Poppins';
+     .description-wrapper {
+        padding: 1.8rem;
+        position: absolute;
+        transition: all 0.9s ease;
+        z-index: 4;
+        color: #ffffff;
+        margin-left: 30%;
+        margin-top: 10%;
+        text-shadow: 0 0 4px rgb(0 0 0 / 45%);
+        }
+     .image{
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+        max-width: 192rem;
+       margin: 0 auto;
+       right: 0;
+    }
+    h2.banner-title{
+       font-size: 80px;
+       font-weight: 400;
+   } 
+}
+.latest-news {
+   padding: 10px 0px 40px 0px;
+   display: flex;
+}
+
+
+
